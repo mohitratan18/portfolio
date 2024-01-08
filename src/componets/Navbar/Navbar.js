@@ -4,6 +4,7 @@ import menu from "../assests/menu.png";
 const Navbar = () => {
   const [toggle, settoggle] = useState(false);
   const handleclick = () => {
+    console.log("rohit waste")
     settoggle(!toggle);
   };
   return (
@@ -17,6 +18,7 @@ const Navbar = () => {
               color: "inherit",
               textDecoration: "none",
             }}
+            
           >
             Skills
           </a>
@@ -47,8 +49,8 @@ const Navbar = () => {
             display: toggle ? "flex" : "none",
           }}
         >
-          <div className={styles.item}>Home</div>
-          <div className={styles.item}>
+          <div className={styles.item} onClick={handleclick}>Home</div>
+          <div className={styles.item} onClick={handleclick}>
             <a
               href="#skills"
               style={{
@@ -59,8 +61,8 @@ const Navbar = () => {
               Skills
             </a>
           </div>
-          <div className={styles.item}>Contact</div>
-          <div className={styles.item}>
+          <div className={styles.item} onClick={handleclick}>Contact</div>
+          <div className={styles.item} onClick={handleclick}>
             <a
               href="https://drive.google.com/file/d/16j6PqrknaG_fzZ01xU72HD2YrzAa4ChB/view"
               style={{
