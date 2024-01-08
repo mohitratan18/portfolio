@@ -12,7 +12,7 @@ function App() {
           <Intro />
         </div>
       </div>
-      <div className="skills">
+      <div className="skills" id="skills">
         <Skills />
       </div>
     </div>

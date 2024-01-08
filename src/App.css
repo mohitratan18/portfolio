@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 .app {
   width: 100%;
@@ -20,22 +21,6 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-}
-.skills {
-  height:1000px;
-  height: 100%;
-  margin: 2rem;
-  animation: fade both linear;
-  animation-timeline: view();
-  animation-range: entry 50% cover 50%;
-}
-@keyframes fade{
-  0%{
-    opacity: 0;
-  }
-  100%{
-    opacity: 1;
-  }
 }
 @media only screen and (max-width: 768px) {
   .skills {

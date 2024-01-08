@@ -10,7 +10,17 @@ const Navbar = () => {
     <>
       <div className={styles.container}>
         <div className={styles.items}>Home</div>
-        <div className={styles.items}>About</div>
+        <div className={styles.items}>
+          <a
+            href="#skills"
+            style={{
+              color: "inherit",
+              textDecoration: "none",
+            }}
+          >
+            Skills
+          </a>
+        </div>
         <div className={styles.items}>Contact</div>
         <div className={styles.items}>
           <a
@@ -38,7 +48,17 @@ const Navbar = () => {
           }}
         >
           <div className={styles.item}>Home</div>
-          <div className={styles.item}>About</div>
+          <div className={styles.item}>
+            <a
+              href="#skills"
+              style={{
+                color: "inherit",
+                textDecoration: "none",
+              }}
+            >
+              Skills
+            </a>
+          </div>
           <div className={styles.item}>Contact</div>
           <div className={styles.item}>
             <a

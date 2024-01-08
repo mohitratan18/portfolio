@@ -16,8 +16,8 @@ import tailwindlogo from "../assests/tailwind.png";
 
 const Skills = () => {
   const skillsData = [
-    { name: "C programming language", icon: c_icon },
-    { name: "C++ Programming language", icon: cpp },
+    { name: "C", icon: c_icon },
+    { name: "C++", icon: cpp },
     { name: "Python", icon: python },
     { name: "Html", icon: html },
     { name: "CSS", icon: css },
@@ -31,7 +31,7 @@ const Skills = () => {
   ];
   return (
     <div className={styles.box}>
-      <h1 className={styles.heading}>TOOLS & TECHNOLOGIES</h1>
+      <h1 className={styles.heading}>SKILLS</h1>
       <div className={styles.container}>
         {skillsData.map((skill) => {
           return (
