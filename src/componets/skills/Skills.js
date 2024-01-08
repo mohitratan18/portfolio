@@ -1,93 +1,52 @@
 import React from "react";
 import styles from "../skills/skills.module.css";
-import c_icon from "../assests/c_logo.png"
+
+import c_icon from "../assests/c_logo.png";
+import cpp from "../assests/c++.png";
+import python from "../assests/python.png";
+import html from "../assests/html.png";
+import css from "../assests/css.png";
+import javascript from "../assests/javascript.png";
+import nodejs from "../assests/nodejs.png";
+import express from "../assests/express.png";
+import mongodb from "../assests/mongodb.png";
+import reactlogo from "../assests/react.png";
+import bootstrap from "../assests/bootstrap.png";
+import tailwindlogo from "../assests/tailwind.png";
+
 const Skills = () => {
+  const skillsData = [
+    { name: "C programming language", icon: c_icon },
+    { name: "C++ Programming language", icon: cpp },
+    { name: "Python", icon: python },
+    { name: "Html", icon: html },
+    { name: "CSS", icon: css },
+    { name: "Javascript", icon: javascript },
+    { name: "Bootstrap", icon: bootstrap },
+    { name: "Tailwind", icon: tailwindlogo },
+    { name: "Nodejs", icon: nodejs },
+    { name: "ExpressJS", icon: express },
+    { name: "MongoDB", icon: mongodb },
+    { name: "ReactJS", icon: reactlogo },
+  ];
   return (
     <div className={styles.box}>
       <h1 className={styles.heading}>TOOLS & TECHNOLOGIES</h1>
       <div className={styles.container}>
-
-
-        <div className={styles.container_items}>
-          <img className={styles.container_items_img} src={c_icon} alt="" />{" "}
-          <div className={styles.container_items_name}>
-            <p>C Language</p>
-          </div>
-        </div>
-
-        
-        <div className={styles.container_items}>
-          <img className={styles.container_items_img} src="" alt="" />{" "}
-          <div className={styles.container_items_name}>
-            <p></p>
-          </div>
-        </div>
-        <div className={styles.container_items}>
-          <img className={styles.container_items_img} src="" alt="" />{" "}
-          <div className={styles.container_items_name}>
-            <p></p>
-          </div>
-        </div>
-        <div className={styles.container_items}>
-          <img className={styles.container_items_img} src="" alt="" />{" "}
-          <div className={styles.container_items_name}>
-            <p></p>
-          </div>
-        </div>
-        <div className={styles.container_items}>
-          <img className={styles.container_items_img} src="" alt="" />{" "}
-          <div className={styles.container_items_name}>
-            <p></p>
-          </div>
-        </div>
-        <div className={styles.container_items}>
-          <img className={styles.container_items_img} src="" alt="" />{" "}
-          <div className={styles.container_items_name}>
-            <p></p>
-          </div>
-        </div>
-        <div className={styles.container_items}>
-          <img className={styles.container_items_img} src="" alt="" />{" "}
-          <div className={styles.container_items_name}>
-            <p></p>
-          </div>
-        </div>
-        <div className={styles.container_items}>
-          <img className={styles.container_items_img} src="" alt="" />{" "}
-          <div className={styles.container_items_name}>
-            <p></p>
-          </div>
-        </div>
-        <div className={styles.container_items}>
-          <img className={styles.container_items_img} src="" alt="" />{" "}
-          <div className={styles.container_items_name}>
-            <p></p>
-          </div>
-        </div>
-        <div className={styles.container_items}>
-          <img className={styles.container_items_img} src="" alt="" />{" "}
-          <div className={styles.container_items_name}>
-            <p></p>
-          </div>
-        </div>
-        <div className={styles.container_items}>
-          <img className={styles.container_items_img} src="" alt="" />{" "}
-          <div className={styles.container_items_name}>
-            <p></p>
-          </div>
-        </div>
-        <div className={styles.container_items}>
-          <img className={styles.container_items_img} src="" alt="" />{" "}
-          <div className={styles.container_items_name}>
-            <p></p>
-          </div>
-        </div>
-        <div className={styles.container_items}>
-          <img className={styles.container_items_img} src="" alt="" />{" "}
-          <div className={styles.container_items_name}>
-            <p></p>
-          </div>
-        </div>
+        {skillsData.map((skill) => {
+          return (
+            <div className={styles.container_items}>
+              <img
+                className={styles.container_items_img}
+                src={skill.icon}
+                alt=""
+              />{" "}
+              <div className={styles.container_items_name}>
+                <p>{skill.name}</p>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
