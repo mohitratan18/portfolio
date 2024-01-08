@@ -1,7 +1,5 @@
 .container {
   display: flex;
-  /* max-width: 50%;
-  max-height: 50%; */
   width: 500px;
   height: 500px;
   flex-direction: column;
@@ -16,7 +14,6 @@
 .img {
   width: 170px;
   height: 170px;
-  /* margin: 9rem 0rem 1.4rem 0rem; */
   border-radius: 50%;
   margin-bottom: 1rem;
 }
@@ -55,9 +52,6 @@
 
 /* mobile view */
 @media only screen and (max-width: 768px) {
-  .img {
-    margin: 7rem 0rem 1.5rem 0rem;
-  }
   .fwd {
     font-size: 27px;
   }

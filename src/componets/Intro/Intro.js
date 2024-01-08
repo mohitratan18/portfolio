@@ -23,21 +23,21 @@ const Intro = () => {
             frontiers in tech!
           </p>
         </div>
-        <div className={styles.button_box}>
-          <button className={styles.button}>
-            <a
-              href="https://drive.google.com/file/d/16j6PqrknaG_fzZ01xU72HD2YrzAa4ChB/view"
-              style={{
-                color: "inherit",
-                textDecoration: "none",
-              }}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Resume
-            </a>
-          </button>
-        </div>
+      </div>
+      <div className={styles.button_box}>
+        <button className={styles.button}>
+          <a
+            href="https://drive.google.com/file/d/16j6PqrknaG_fzZ01xU72HD2YrzAa4ChB/view"
+            style={{
+              color: "inherit",
+              textDecoration: "none",
+            }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+        </button>
       </div>
     </div>
   );
