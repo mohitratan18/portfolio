@@ -7,6 +7,24 @@
   align-items: center;
   position: relative;
 }
+.fwd{
+  font-family: monospace;
+  border-right: 5px solid ;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  animation: 
+  typing 2s steps(25),
+  cursor 0.5s step-end infinite alternate
+}
+@keyframes cursor{
+  50%{
+    border-color: transparent;
+  }
+}
+@keyframes typing{
+  from {width: 0}
+}
 .name {
   font-size: 15px;
   color: #0f969c;

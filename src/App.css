@@ -22,6 +22,9 @@
   align-items: center;
   height: 100%;
 }
+.skills{
+  height: 100vh;
+}
 @media only screen and (max-width: 768px) {
   .skills {
     margin: 3rem;
