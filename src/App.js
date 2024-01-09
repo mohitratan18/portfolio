@@ -8,7 +8,9 @@ function App() {
   return (
     <div className="app">
       <div className="first-view">
-        <Navbar />
+        <div className="navbar">
+          <Navbar />
+        </div>
         <div className="intro">
           <Intro />
         </div>
@@ -16,8 +18,8 @@ function App() {
       <div className="skills" id="skills">
         <Skills />
       </div>
-      <div className="projects">
-        <Project/>
+      <div className="projects" id="projects">
+        <Project />
       </div>
     </div>
   );

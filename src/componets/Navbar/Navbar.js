@@ -23,7 +23,16 @@ const Navbar = () => {
             Skills
           </a>
         </div>
-        <div className={styles.items}>Contact</div>
+        <div className={styles.items}><a
+            href="#projects"
+            style={{
+              color: "inherit",
+              textDecoration: "none",
+            }}
+            
+          >
+            Projects
+          </a></div>
         <div className={styles.items}>
           <a
             href="https://drive.google.com/file/d/16j6PqrknaG_fzZ01xU72HD2YrzAa4ChB/view"
@@ -61,7 +70,16 @@ const Navbar = () => {
               Skills
             </a>
           </div>
-          <div className={styles.item} onClick={handleclick}>Contact</div>
+          <div className={styles.item} onClick={handleclick}><a
+            href="#projects"
+            style={{
+              color: "inherit",
+              textDecoration: "none",
+            }}
+            
+          >
+            Projects
+          </a></div>
           <div className={styles.item} onClick={handleclick}>
             <a
               href="https://drive.google.com/file/d/16j6PqrknaG_fzZ01xU72HD2YrzAa4ChB/view"

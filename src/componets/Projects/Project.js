@@ -3,9 +3,19 @@ import styles from "../Projects/projects.module.css";
 import textutils from "../assests/text-utils.png";
 import inotebook from "../assests/Inotebook.png";
 import hope from "../assests/hope.png";
-import portfolio from "../assests/portfolio.png"
+import portfolio from "../assests/portfolio.png";
 const Project = () => {
   const projectsdata = [
+    {
+      img: inotebook,
+      info: "INoteBook: a secure, React-based app for personalized note-taking, prioritizing user privacy and confidentiality. Enables creation, storage, and access to notes.",
+      btn: "https://github.com/mohitratan18/INOTE-BOOK",
+    },
+    {
+      img: portfolio,
+      info: "Designed with ReactJS, my personal portfolio elegantly presents my skills and passions, offering an interactive showcase of my journey in web development.",
+      btn: "https://github.com/mohitratan18/portfolio",
+    },
     {
       img: textutils,
       info: "TextUtils: an all-in-one online text tool providing diverse formatting, analysis, and transformation options for seamless text editing.",
@@ -14,18 +24,8 @@ const Project = () => {
     {
       img: hope,
       info: "HOPE A web platform linking food donors to recipients, streamlining surplus food donation for efficient and transparent distribution to those in need.",
-      btn: ""
+      btn: "",
     },
-    {
-      img: inotebook,
-      info: "INoteBook: a secure, React-based app for personalized note-taking, prioritizing user privacy and confidentiality. Enables creation, storage, and access to notes.",
-      btn: "https://github.com/mohitratan18/INOTE-BOOK",
-    },
-    {
-      img: portfolio,
-      info:"Designed with ReactJS, my personal portfolio elegantly presents my skills and passions, offering an interactive showcase of my journey in web development.",
-      btn:"https://github.com/mohitratan18/portfolio",
-    }
   ];
   return (
     <div className={styles.box}>
