@@ -4,7 +4,7 @@ import menu from "../assests/menu.png";
 const Navbar = () => {
   const [toggle, settoggle] = useState(false);
   const handleclick = () => {
-    console.log("rohit waste")
+    console.log("rohit waste");
     settoggle(!toggle);
   };
   return (
@@ -18,32 +18,30 @@ const Navbar = () => {
               color: "inherit",
               textDecoration: "none",
             }}
-            
           >
             Skills
           </a>
         </div>
-        <div className={styles.items}><a
+        <div className={styles.items}>
+          <a
             href="#projects"
             style={{
               color: "inherit",
               textDecoration: "none",
             }}
-            
           >
             Projects
-          </a></div>
+          </a>
+        </div>
         <div className={styles.items}>
           <a
-            href="https://drive.google.com/file/d/16j6PqrknaG_fzZ01xU72HD2YrzAa4ChB/view"
+            href="#contact"
             style={{
               color: "inherit",
               textDecoration: "none",
             }}
-            target="_blank"
-            rel="noopener noreferrer"
           >
-            Resume
+            Contact
           </a>
         </div>
       </div>
@@ -58,7 +56,9 @@ const Navbar = () => {
             display: toggle ? "flex" : "none",
           }}
         >
-          <div className={styles.item} onClick={handleclick}>Home</div>
+          <div className={styles.item} onClick={handleclick}>
+            Home
+          </div>
           <div className={styles.item} onClick={handleclick}>
             <a
               href="#skills"
@@ -70,27 +70,26 @@ const Navbar = () => {
               Skills
             </a>
           </div>
-          <div className={styles.item} onClick={handleclick}><a
-            href="#projects"
-            style={{
-              color: "inherit",
-              textDecoration: "none",
-            }}
-            
-          >
-            Projects
-          </a></div>
           <div className={styles.item} onClick={handleclick}>
             <a
-              href="https://drive.google.com/file/d/16j6PqrknaG_fzZ01xU72HD2YrzAa4ChB/view"
+              href="#projects"
               style={{
                 color: "inherit",
                 textDecoration: "none",
               }}
-              target="_blank"
-              rel="noopener noreferrer"
             >
-              Resume
+              Projects
+            </a>
+          </div>
+          <div className={styles.item} onClick={handleclick}>
+            <a
+              href="#contact"
+              style={{
+                color: "inherit",
+                textDecoration: "none",
+              }}
+            >
+              Contact
             </a>
           </div>
         </div>

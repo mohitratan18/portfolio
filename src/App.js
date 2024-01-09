@@ -1,4 +1,6 @@
 import "./App.css";
+import Contactus from "./componets/Contactus/Contactus";
+import Education from "./componets/Education/Education";
 import Intro from "./componets/Intro/Intro";
 import Navbar from "./componets/Navbar/Navbar";
 import Project from "./componets/Projects/Project";
@@ -20,6 +22,12 @@ function App() {
       </div>
       <div className="projects" id="projects">
         <Project />
+      </div>
+      <div className="education">
+        <Education/>
+      </div>
+      <div className="contact" id="contact">
+        <Contactus/>
       </div>
     </div>
   );

@@ -44,7 +44,7 @@ const Project = () => {
                     textDecoration: "none",
                   }}
                 >
-                  Git Repo
+                  Github Repo
                 </a>
               </div>
             </div>

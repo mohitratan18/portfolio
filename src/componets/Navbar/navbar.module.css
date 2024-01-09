@@ -2,7 +2,7 @@
   width: 100vw;
   height: 5rem;
   display: none;
-  font-size: 17px;
+  font-size: 18px;
   font-family: sans-serif;
   justify-content: center;
   flex-wrap: wrap;
@@ -13,6 +13,10 @@
   margin: 1.5rem 1rem 1rem 1rem ;
   color: #0f969c;
   cursor: pointer;
+  transition: all 0.2s;
+}
+.items:hover{
+  text-decoration: underline ;
 }
 .mobilecontainer {
   display: flex;

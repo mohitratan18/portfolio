@@ -9,7 +9,7 @@
 }
 .fwd{
   font-family: monospace;
-  border-right: 5px solid ;
+  /* border-right: 5px solid ; */
   white-space: nowrap;
   overflow: hidden;
   width: 100%;
