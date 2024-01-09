@@ -1,6 +1,7 @@
 import "./App.css";
 import Intro from "./componets/Intro/Intro";
 import Navbar from "./componets/Navbar/Navbar";
+import Project from "./componets/Projects/Project";
 import Skills from "./componets/skills/Skills";
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
       </div>
       <div className="skills" id="skills">
         <Skills />
+      </div>
+      <div className="projects">
+        <Project/>
       </div>
     </div>
   );
