@@ -24,7 +24,7 @@ const Project = () => {
     {
       img: hope,
       info: "HOPE A web platform linking food donors to recipients, streamlining surplus food donation for efficient and transparent distribution to those in need.",
-      btn: "",
+      btn: "https://github.com/mohitratan18/HOPE",
     },
   ];
   return (

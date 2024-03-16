@@ -30,25 +30,50 @@ const Skills = () => {
     { name: "ReactJS", icon: reactlogo },
   ];
   return (
-    <div className={styles.box}>
-      <h1 className={styles.heading}>SKILLS</h1>
-      <div className={styles.container}>
-        {skillsData.map((skill) => {
-          return (
-            <div className={styles.container_items}>
-              <img
-                className={styles.container_items_img}
-                src={skill.icon}
-                alt=""
-              />{" "}
-              <div className={styles.container_items_name}>
-                <p>{skill.name}</p>
+    <>
+      <div className={styles.box}>
+        <h1 className={styles.heading}>SKILLS</h1>
+        <div className={styles.container}>
+          {skillsData.map((skill) => {
+            return (
+              <div className={styles.container_items}>
+                <img
+                  className={styles.container_items_img}
+                  src={skill.icon}
+                  alt=""
+                />{" "}
+                <div className={styles.container_items_name}>
+                  <p>{skill.name}</p>
+                </div>
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
-    </div>
+
+      {/* mobile view */}
+
+      {/* <div className={styles.mobile_box}>
+        <div className={styles.data_box}>
+          {skillsData.map((skill) => {
+            return (
+              <div className={styles.container_items}>
+                <img
+                  className={styles.container_items_img}
+                  src={skill.icon}
+                  alt=""
+                />{" "}
+                <div className={styles.container_items_name}>
+                  <p>{skill.name}</p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <div className={styles.data_box}></div>
+        <div className={styles.data_box}></div>
+      </div> */}
+    </>
   );
 };
 
