@@ -2,10 +2,16 @@ import React from "react";
 import styles from "../Projects/projects.module.css";
 import textutils from "../assests/text-utils.png";
 import inotebook from "../assests/Inotebook.png";
+import grabandgo from "../assests/grabandgo.png"
 import hope from "../assests/hope.png";
 import portfolio from "../assests/portfolio.png";
 const Project = () => {
   const projectsdata = [
+    {
+      img: grabandgo,
+      info: "Grab and Go is a MERN stack web app that helps users find nearby stores with specific products. It features a robust backend and a responsive frontend, showcasing my skills in scalable web application development and efficient solutions.",
+      btn: "https://github.com/mohitratan18/Grab-Go_Frontend",
+    },
     {
       img: inotebook,
       info: "INoteBook: a secure, React-based app for personalized note-taking, prioritizing user privacy and confidentiality. Enables creation, storage, and access to notes.",

@@ -27,7 +27,7 @@ const Intro = () => {
       <div className={styles.button_box}>
         <button className={styles.button}>
           <a
-            href="https://drive.google.com/file/d/16j6PqrknaG_fzZ01xU72HD2YrzAa4ChB/view"
+            href="https://drive.google.com/file/d/1EDSu8RSDzDG3wwdmf_xWJTR5A0mCmGJQ/view?usp=drive_link"
             style={{
               color: "inherit",
               textDecoration: "none",
