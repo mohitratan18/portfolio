@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./contact.module.css";
+import { Link } from "react-router-dom";
 const Contactus = () => {
   const [email, setemail] = useState("");
   const [subject, setsubject] = useState("");
@@ -28,35 +29,13 @@ const Contactus = () => {
     <div className={styles.container}>
       <h2 className={styles.header}>CONTACT ME</h2>
       <div className={styles.box}>
-        <h1>Email Me 📧</h1>
-        <input
-          type="text"
-          placeholder="Your Email"
-          className={styles.input}
-          onChange={(e) => {
-            setemail(e.target.value);
-          }}
-        />
-        <input type="text" placeholder="Your Name" className={styles.input} />
-        <input
-          type="text"
-          placeholder="Subject"
-          className={styles.input}
-          onChange={(e) => {
-            setsubject(e.target.value);
-          }}
-        />
-        <textarea
-          className={styles.textbox}
-          col={60}
-          placeholder="Message"
-          onChange={(e) => {
-            setmessage(e.target.value);
-          }}
-        ></textarea>
-        <button className={styles.button} onClick={handlesubmit}>
-          Submit
-        </button>
+        <div>
+          <h2>email - mohitratan2003@gmail.com</h2>
+          <h2>contact number - 8144436109</h2>
+          <Link to="https://www.linkedin.com/in/mohit-ratan/">
+            <h2 className="text-[#0f969c]">Linkedin Profile</h2>
+          </Link>
+        </div>
       </div>
     </div>
   );

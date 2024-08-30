@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   color: #0f969c;
+  max-height: 100%;
 }
 .box{
     width: 95%;
