@@ -4,6 +4,7 @@ import Education from "./componets/Education/Education";
 import Intro from "./componets/Intro/Intro";
 import Navbar from "./componets/Navbar/Navbar";
 import Project from "./componets/Projects/Project";
+import Expreince from "./componets/experince/Expreince";
 import Skills from "./componets/skills/Skills";
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
       </div>
       <div className="education">
         <Education/>
+      </div>
+      <div className="intro">
+        <Expreince/>
       </div>
       <div className="contact" id="contact">
         <Contactus/>

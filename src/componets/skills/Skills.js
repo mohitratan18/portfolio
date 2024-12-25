@@ -13,12 +13,16 @@ import mongodb from "../assests/mongodb.png";
 import reactlogo from "../assests/react.png";
 import bootstrap from "../assests/bootstrap.png";
 import tailwindlogo from "../assests/tailwind.png";
+import nextjs from "../assests/nextjs-icon.png";
+import firbase from "../assests/firebasae_icon.png";
+import reactnative from "../assests/react_native.png";
 
 const Skills = () => {
   const skillsData = [
-    { name: "C", icon: c_icon },
-    { name: "C++", icon: cpp },
-    { name: "Python", icon: python },
+    { name: "ReactJS", icon: reactlogo },
+    {name:"ReactNative"  ,icon:reactnative},
+    {name:"NextJS" ,icon:nextjs},
+    {name:"Firebase" ,icon:firbase},
     { name: "Html", icon: html },
     { name: "CSS", icon: css },
     { name: "Javascript", icon: javascript },
@@ -27,7 +31,9 @@ const Skills = () => {
     { name: "Nodejs", icon: nodejs },
     { name: "ExpressJS", icon: express },
     { name: "MongoDB", icon: mongodb },
-    { name: "ReactJS", icon: reactlogo },
+    { name: "C", icon: c_icon },
+    { name: "C++", icon: cpp },
+    { name: "Python", icon: python },
   ];
   return (
     <>
