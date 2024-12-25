@@ -45,6 +45,9 @@
   justify-content: center;
   gap: 10px;
 }
+.info{
+  font-size: small;
+}
 .btn {
   width: 100px;
   /* height: 45px; */
